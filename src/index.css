@@ -9,8 +9,14 @@ html, body, #root, .App {
 .App {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 h1 {
   text-align: center;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
 }

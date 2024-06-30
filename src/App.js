@@ -1,7 +1,7 @@
 // src/App.js
 
 import React from 'react';
-import MapComponent from 'components/MapComponent';
+import MapComponent from './components/MapComponent';
 
 const App = () => {
   const handleCountryClick = (countryName) => {
